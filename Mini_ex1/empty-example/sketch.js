@@ -1,22 +1,34 @@
-function preload() {
-  image = loadImage('Dog2.png');
+var img;
+var img1;
 
+function preload() {
+img = loadImage('Assets/loading.jpg');
+img1 = loadImage('Assets/Error2.png');
 }
+
 
 function setup() {
-  createCanvas(500, 500);
-  background(200);
-  image(img, 0, 0);
+  createCanvas(1920, 985);
+  background(img);
+  frameRate(3);
 }
 
+
 function draw() {
-  fill(20, 20, 255);
-  rect(325,400,150,50,20);
-  //Rect.x-coordinates, y-coordinates, lenght, height, corners
-
-  fill(255, 255, 255);
   textSize(32);
-  text('Upgrade', 335, 435);
+  text('Loading...', 900, 750);
+  fill(0);
 
-  image(img, 50, 50);
+
+  textSize(32);
+  text('Loading..', 900, 750);
+
+  textSize(32);
+  text('Loading.', 900, 750);
+
+
+}
+
+function mousePressed() {
+    image(img1, mouseX, mouseY);
 }
