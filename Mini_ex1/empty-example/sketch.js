@@ -1,7 +1,12 @@
+function preload() {
+  image = loadImage('Dog2.png');
+
+}
+
 function setup() {
   createCanvas(500, 500);
   background(200);
-  image = loadImage("Dog.gif");
+  image(img, 0, 0);
 }
 
 function draw() {
