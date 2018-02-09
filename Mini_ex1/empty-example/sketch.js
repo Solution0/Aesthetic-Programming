@@ -1,6 +1,7 @@
 var img;
 var img1;
 var a = 0
+var words = ["Loading.", "Loading..", "Loading..."]
 
 function preload() {
   img = loadImage('Assets/loading.jpg');
@@ -8,29 +9,18 @@ function preload() {
   img2 = loadImage('Assets/Error3.png');
 }
 
-
 function setup() {
   createCanvas(1920, 985);
   background(img);
   frameRate(3);
 }
 
-
 function draw() {
   textSize(32);
-  text('Loading...', 900, 750);
+  text(random(words), 900, 750);
   fill(0);
 
-
-  textSize(32);
-  text('Loading..', 900, 750);
-
-  textSize(32);
-  text('Loading.', 900, 750);
-
-
 }
-
 function mousePressed() {
   if (a == 0) {
     image(img1, mouseX-126, mouseY-41);
