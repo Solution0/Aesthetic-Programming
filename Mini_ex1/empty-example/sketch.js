@@ -3,9 +3,9 @@ var img1;
 var a = 0
 
 function preload() {
-img = loadImage('Assets/loading.jpg');
-img1 = loadImage('Assets/Error2.png');
-img2 = loadImage('Assets/Error3.png');
+  img = loadImage('Assets/loading.jpg');
+  img1 = loadImage('Assets/Error2.png');
+  img2 = loadImage('Assets/Error3.png');
 }
 
 
