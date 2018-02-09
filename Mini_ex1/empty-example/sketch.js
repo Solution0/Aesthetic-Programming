@@ -1,9 +1,11 @@
 var img;
 var img1;
+var a = 0
 
 function preload() {
 img = loadImage('Assets/loading.jpg');
 img1 = loadImage('Assets/Error2.png');
+img2 = loadImage('Assets/Error3.png');
 }
 
 
@@ -30,5 +32,10 @@ function draw() {
 }
 
 function mousePressed() {
-    image(img1, mouseX, mouseY);
+  if (a == 0) {
+    image(img1, mouseX-126, mouseY-41);
+    a = a+1
+  } else {
+    image(img2, mouseX-130, mouseY-40)
+  }
 }
