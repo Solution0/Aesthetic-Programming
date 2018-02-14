@@ -10,7 +10,11 @@ var movementSpeed = 5;
   //Variable that controls the movement speed of Isaac
 var FramesPS = 100;
   //The amount of frames shown per second
-
+var Isaacx;
+  //Isaac's x position
+var Isaacy;
+  //Isaac's y position
+//In the above text i declare my variabels for the program
 
 function preload() {
 level = loadImage('Assets/level.png')
@@ -33,12 +37,15 @@ function setup() {
 
   }
 
-
 function draw() {
   imageMode(CORNER)
   background(level);
   imageMode(CENTER)
-  image(isaac, width/2 + x, height/2 + y, 150, 150 );
+  Isaacx = width/2 + x;
+    //Defining Isaac's x position in math
+  Isaacy = height/2 + y;
+    //Defining Isaac's y position in math
+  image(isaac, Isaacx, Isaacy, 150, 150 );
 
   if (keyIsDown(DOWN_ARROW)) {
     y += movementSpeed;
@@ -58,5 +65,6 @@ function draw() {
 
 
 function mousePressed() {
-
+// Here i want to make W, A, S and D able to 'shoot'
+// projectiles in their respective directions
   }
