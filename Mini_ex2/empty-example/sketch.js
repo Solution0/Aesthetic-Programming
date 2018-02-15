@@ -18,7 +18,11 @@ var Isaacy;
 
 function preload() {
 level = loadImage('Assets/level.png')
+  //This is the levels image running in the bagground.
+  //Without doors so far.
 isaac = loadImage('Assets/Isaac.png')
+  //this is the picture of Isaac, our primary
+  //character. This is the pixelated version.
   }
 
 function windowResized() {
