@@ -18,8 +18,6 @@ var Isaacx;
   //Isaac's x position
 var Isaacy;
   //Isaac's y position
-var Bulletdirection;
-  //Bulletdirection, so far in degrees
 //In the above text i declare my variabels for the program
 
 function preload() {
