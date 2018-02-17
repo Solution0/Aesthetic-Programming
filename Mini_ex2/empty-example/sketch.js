@@ -70,6 +70,7 @@ function draw() {
       }
     if (keyIsDown(65)) { //a + description
       push();
+        //Isolate the next lines of code; until POP
       imageMode(CENTER)
         //Center the picture on the reference point
       translate(Isaacx, Isaacy)
@@ -81,6 +82,7 @@ function draw() {
       image(knife, 10, -80, knife.width/knifescale, knife.height/knifescale);
         //moves it to look natural and scale it by 'knifescale'(5)
       pop();
+        //Stop isolation of code
       }
     if (keyIsDown(83)) { //s
       push();
