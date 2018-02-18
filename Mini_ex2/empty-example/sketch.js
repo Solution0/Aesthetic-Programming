@@ -64,19 +64,19 @@ function draw() {
 
   image(isaac, Isaacx, Isaacy, 150, 150 );
 
-    if (keyIsDown(DOWN_ARROW)) {
+  if (keyIsDown(DOWN_ARROW)) {
       y += movementSpeed;
       }
-    if (keyIsDown(UP_ARROW)) {
+  if (keyIsDown(UP_ARROW)) {
       y -= movementSpeed;
       }
-    if (keyIsDown(LEFT_ARROW)) {
+  if (keyIsDown(LEFT_ARROW)) {
       x -= movementSpeed;
       }
-    if (keyIsDown(RIGHT_ARROW)) {
+  if (keyIsDown(RIGHT_ARROW)) {
       x += movementSpeed;
       }
-    if (keyIsDown(65)) { //a + description
+  if (keyIsDown(65)) { //a + description
       push();
         //Isolate the next lines of code; until POP
       imageMode(CENTER)
@@ -92,7 +92,7 @@ function draw() {
       pop();
         //Stop isolation of code
       }
-    if (keyIsDown(83)) { //s
+  if (keyIsDown(83)) { //s
       push();
       imageMode(CENTER)
       translate(Isaacx, Isaacy)
@@ -100,7 +100,7 @@ function draw() {
       image(knife, 0, -80, knife.width/knifescale, knife.height/knifescale);
       pop();
       }
-    if (keyIsDown(68)) { //d
+  if (keyIsDown(68)) { //d
       push();
       imageMode(CENTER)
       translate(Isaacx, Isaacy)
@@ -108,11 +108,11 @@ function draw() {
       image(knife, 10, -80, knife.width/knifescale, knife.height/knifescale);
       pop();
       }
-    if (keyIsDown(87)) { //w
+  if (keyIsDown(87)) { //w
       push();
       imageMode(CENTER)
       translate(Isaacx, Isaacy)
       image(knife, 0, -80, knife.width/knifescale, knife.height/knifescale);
       pop();
       }
-  }
+    }
