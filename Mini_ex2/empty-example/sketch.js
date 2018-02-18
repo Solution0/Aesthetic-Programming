@@ -1,3 +1,11 @@
+//Hello user and welcome to Isaac.
+//This is an experiment in converting the Indie classic
+//Binding of Isaac unto p5.js code.
+//Firstly i would like you to go into 'Edit' in the top
+//of the window. Then select 'Folding' and finally 'Fold all'
+
+//Enjoy
+
 var level;
   //Level bagground
 var isaac;
