@@ -1,7 +1,7 @@
 # Mini exercise 2
 
 ![alt text](https://github.com/Solution0/Aesthetic-Programming/blob/Github-Desktop/Mini_ex2/Isaaccode.JPG?raw=true)
-*This is a screenshot of program. 
+*This is a screenshot of the program. 
 
 **URL:** https://rawgit.com/Solution0/Aesthetic-Programming/Github-Desktop/Mini_ex2/empty-example/index.html
 
@@ -17,7 +17,7 @@ The game introduces a crazy religious story of a hearthbroken child getting chas
 The game is best described as a cartoon nightmare filled with religous and obscene characters and scenery. While some people is triggered and disgusted, others see the beauty in the indepth rogue-like gameplay and imaginative drawings. The game is also filled with popculture references that go deep into things as: memes, movies, series, famous people and other games. For me this is fun, not just well planned jokes but also references, wordplay and challenges. A kind of 'geeky' fun. 
 
 ## Approach
-This time around I wanted to make the foundation for something bigger. The project is a game which require a lot of interactivity and some aspect of variables in gameplay. I have some experience in this kind of game development. I have been a game tester on Inside(Playdead), Trailmakers(Flashbulb games) and Project Knoxville(Press Play) as well as both ingaged in and supervised gamedevelopement on a camp for three years.
+This time around I wanted to make the foundation for something bigger. The project is a game which require a lot of interactivity and some aspect of variables in gameplay. I have some experience in this kind of game development. I have been a game tester on Inside(Playdead), Trailmakers(Flashbulb games) and Project Knoxville(Press Play) as well as both ingaged in and supervised gamedevelopment on a camp for three years.
 
 As this was not an original game, but a replica of another, I wanted to focus on others things important for this kind of game developemnt. In the code it meant that **descriptions** and **structure** was a necessity. Recesses and folding gave me the structure, space and overview that i needed. Having the ability to hide descriptions and valid code boosted the efficiency and made for less scrolling and more code on the screen at the same time. 
 
@@ -27,9 +27,9 @@ Outside the coding itself It also meant some structure in the development of the
 
 ## Challenges
 In my attempt to recreate the game in p5.js code i encountered many challenges, some I overcomed while others I saved for later exercises. This include:
-**- Projectiles
+- Projectiles
 - Random pictures assets
 - Multiple levels
-- Animation**
+- Animation
 
 These additions will be the focus in my mini exercise #3. 
