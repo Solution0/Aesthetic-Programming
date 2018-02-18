@@ -26,6 +26,8 @@ As this was not an original game, but a replica of another, I wanted to focus on
 
 Outside the coding itself It also meant some structure in the development of the .js file itself. Having a clear overview of milestones and changes through each **commit to GitHub**. This meant that I was to save often and make milestones underway that marked steps that was finetuned and free of bugs and errors. These i could name Isaac 1.0, Isaac 1.1 and so on.
 
+All this took some time. Time that I could've used on programming. And though it helped the effiency I properly could have coded more if i did not choose to think about structure and order. But I think this way of coding has a huge potential in writing programs with 100-200 lines or more. A number I did not quite reach this time around. This approach would also have complimented co-operation nicely as it gives a clear communication between individuals. Never the less I think this is my preffered way of coding. 
+
 ## Challenges
 In my attempt to recreate the game in p5.js code i encountered many challenges, some I overcomed while others I saved for later exercises. This include:
 - Projectiles
