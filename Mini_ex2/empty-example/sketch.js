@@ -26,6 +26,8 @@ var Isaacx;
   //Isaac's x position
 var Isaacy;
   //Isaac's y position
+var zombiex = 100;
+var zombiey = 100;
 //In the above text i declare my variabels for the program
 
 function preload() {
@@ -63,7 +65,24 @@ function draw() {
     //Defining Isaac's y position in math
 
   image(isaac, Isaacx, Isaacy, 150, 150 );
-
+/* Ignore this bit so far
+  zombiex = 100;
+  Zombiey = 100;
+  if(zombiex > Isaacx) {
+    zombiex = zombiex - 1;
+  } else if(zombiex < Isaacx) {
+    zombiex = zombiex + 1;
+  }
+  push();
+  translate(zombiex,zombiey);
+  image(isaac, 0, 0, 150, 150);
+  var v1 = createVector(Isaacx, Isaacy);
+  stroke(0);
+  line(0, 0, v1.x-100, v1.y-100);
+  var d = int(dist(zombiex, zombiey, Isaacx, Isaacy));
+  text(nfc(d, 1), 0, -50);
+  pop();
+ */
   if (keyIsDown(DOWN_ARROW)) {
       y += movementSpeed;
       }
