@@ -1,15 +1,12 @@
 /*Welcome to Mini_ex3. This exercises theme is Throbbers.*/
 
-var i = 0;
+var rotationSpeed = 0;
 var n = 0;
 var s = 30;
 var b = 60;
-var bmax = 120;
+var bmax = 100;
 var bmin = 60;
-var speed = 0.5;
-
-function preload() {
-  }
+var speed = 0.7;
 
 function windowResized() {
   setup();
@@ -28,16 +25,16 @@ function setup() {
 function draw() {
   background(0);
   translate(windowWidth/2, windowHeight/2)
-  i += 0.015
+  rotationSpeed += 0.015
   rotate(i);
-  cirkel(0,-b,185,95,210);
-  cirkel(0,b,255,68,58);
-  cirkel(-b,0,254,193,2);
-  cirkel(b,0,255,208,2);
-  cirkel(-s,-s,80,204,38);
-  cirkel(s,s,19,154,244);
-  cirkel(-s,s,35,188,185);
-  cirkel(s,-s,55,43,228);
+  cirkel(0,-b,185,95,210); //1
+  cirkel(0,b,80,204,38); //5 255,68,58);
+  cirkel(-b,0,35,288,285); //7 254,193,2);
+  cirkel(b,0,254,293,2); //3 255,208,2);
+  cirkel(-s,-s,55,43,228); //8 80,204,38);
+  cirkel(s,s,255,208,2); //4 19,154,244);
+  cirkel(-s,s,19,254,244); //6 35,188,185);
+  cirkel(s,-s,255,68,58); //2 55,43,228);
 
   if(n == 0) {
     s+=speed
@@ -57,6 +54,6 @@ function draw() {
 function cirkel(x,y,r,g,b){
   noStroke();
   fill(r,g,b,150);
-  ellipse(x,y,100,100);
+  ellipse(x,y,75,75);
 
 }
