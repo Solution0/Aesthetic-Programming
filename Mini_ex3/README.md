@@ -1,6 +1,6 @@
 ## Mini exercise 3
 
-![alt text](https://github.com/Solution0/Aesthetic-Programming/blob/Github-Desktop/Mini_ex3/Screenshot.JPG?raw=true)
+![alt text](https://github.com/Solution0/Aesthetic-Programming/blob/Github-Desktop/Mini_ex3/Throbber.GIF?raw=true)
 *This is a screenshot of the program.
 
 *The throbber turns around endlessly.. almost like it planning something horrible..*
