@@ -20,6 +20,6 @@ Maybe the best critique about throbbers is the throbbers themselves? Note that i
 
 I wanted to devote the time of my programs users to the self-reflection on why we're waiting. What are we waiting for? Should we keep waiting? I call this:
 
+:trumpet: :trumpet: :trumpet:
 ***#ThrobberThoughts***
-
-:bomb:
+:bomb: :bomb: :bomb:
