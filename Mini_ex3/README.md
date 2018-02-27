@@ -25,6 +25,8 @@ I wanted to devote the time of my programs users to the self-reflection on why w
 ***#ThrobberThoughts***
 :bomb: :bomb: :bomb:
 
+![alt text](https://github.com/Solution0/Aesthetic-Programming/blob/Github-Desktop/Mini_ex3/Mindblow.gif)
+
 ## The learning experience
 This weeks exercise I have used more of my time planning than executing. While it was fun, I felt less productive. There is a lot of things in this code that I dont like personally and more time could've been used on perfecting this small animation.
 Things I would've changed:
