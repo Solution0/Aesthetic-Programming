@@ -4,7 +4,7 @@
 *This is a screenshot of the program.
 
 **URL:** https://rawgit.com/Solution0/Aesthetic-Programming/Github-Desktop/Mini_ex3/empty-example/index.html
-- The throbber turns around endlessly.. almost like it planning something horrible..
+*The throbber turns around endlessly.. almost like it planning something horrible..*
 
 ## Throbber fun or...?
 This weeks exercise has been focused on temporality.
