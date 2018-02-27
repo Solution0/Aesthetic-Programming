@@ -22,6 +22,6 @@ I wanted to devote the time of my programs users to the self-reflection on why w
 
 /play butts
 
-*** #ThrobberThoughts ***
+***#ThrobberThoughts***
 
 /play deeper
