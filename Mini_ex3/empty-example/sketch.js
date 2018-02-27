@@ -48,28 +48,30 @@ function draw() {
   circle(-s,s,19,254,244); //6
   circle(-b,0,35,288,285); //7
   circle(-s,-s,55,43,228); //8
-  circle(-s,s,19,254,244); //6
   //All circles with the respective color codes and placements
 
   if(n == 0) {
     s+=speed
     b+=speed
     //If pulse direction = 0, add to distance
-  } else if (n==1) {
+    }
+  else if (n==1) {
     s-=speed
     b-=speed
     //If pulse direction = 1, decrease distance
     }
 
-    if (b>=bmax) {
+  if (b>=bmax) {
       n=1
       //Change pulse direction when bmax is hit
-    } else if(b<=bmin) {
+      }
+  else if(b<=bmin) {
       n=0
       //Change pulse direction when bmin is hit
-}
+      }
 
 }
+
 function circle(x,y,r,g,b){
   noStroke();
   fill(r,g,b,150);
