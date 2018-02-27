@@ -24,3 +24,10 @@ I wanted to devote the time of my programs users to the self-reflection on why w
 :trumpet: :trumpet: :trumpet:
 ***#ThrobberThoughts***
 :bomb: :bomb: :bomb:
+
+## The learning experience
+This weeks exercise I have used more of my time planning than executing. While it was fun, I felt less productive. There is a lot of things in this code that I dont like personally and more time could've been used on perfecting this small animation.
+Things I would've changed:
+- Two of the cyan colors look to much the same in my opinion.
+- It's coded so the all circles have the same reference point(translate). The distance could've been more consistant if every circle had their own reference point. Other solutions could also be using better match to calculate the speed for every odd circle so all match or using distance to the translate point(Much like placing them on the periphery of a circle)
+- Adding more circles
