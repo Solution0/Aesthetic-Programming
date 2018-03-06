@@ -26,7 +26,7 @@ function windowResized() {
 function preload() {
   Momondo = loadImage('Assets/Momondo.JPG');
     //Loads the background Mamanda image.
-  Popup = loadImage('Assets/popup.PNG');
+  Popup = loadImage('Assets/popup.png');
     //Loads the popup image.
  }
 
