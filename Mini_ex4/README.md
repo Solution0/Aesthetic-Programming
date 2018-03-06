@@ -21,3 +21,8 @@ By knowing what content you're looking at they can change the price to give you 
 ### My program
 As a response to this use of data capture I have made a exaggerated visualization of this. The program gives you the opportunity to buy a airplane ticket from Billund to London. But as you click on it, you are confronted by a pop-up window. This window ask you, how much you want to go on this vacation. Your price will then change accordingly to how much you want to go, effectively making you pay more, right before your eyes. Scandalous.
 ![alt text](https://media.giphy.com/media/xTiTnnELQ0KbRdWqek/giphy.gif)
+
+### The experience
+This time around I toyed with the .dom syntaxes. This gave me a lot of flexibility towards manipulating with buttons. My code have a lot of sorta the same lines, though I tried to devide as much as I could into their own function, to save lines. This is something I hope to learn more of in the coming weeks. 
+
+I also wanted to try out implementing cookies in the program, myself. But I found this to be beyond my level, but definitely something I will return to in coming exercises.
