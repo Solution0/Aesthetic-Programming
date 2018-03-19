@@ -2,16 +2,10 @@
 data capturing, a very controversial thing in modern time.
 Start by 'fold all', Go to Edit/Folding/Fold all (Top left)*/
 
-var hand;
-var handImage;
-var aisle;
-var chips;
+//Title: 100:1 (the chance of survival, number will be changed)
 
-function preload() {
-  handImage = loadImage('Assets/Hand.png');
-  aisle = loadImage('Assets/Aisle.png');
-
-}
+var StartSize = 25;
+var lifeform = [];
 
 function windowResized() {
   setup();
@@ -19,21 +13,64 @@ function windowResized() {
   }
 
 function setup() {
-  createCanvas(900, 900);
+  createCanvas(windowWidth-5, windowHeight-5);
   /*Here I setup the canvas size. Its depended on the windows width and height*/
-  image(aisle, 0, 0)
-
-  chips = createSprite(100,100);
-  chips.addImage(loadImage('Assets/chips.png'));
-
-  }
-
+  for (let i=0; i<100; i++) {
+    lifeform[i] = new lifeforms();
+    background(0);
+   }
+}
 
 function draw() {
-  drawSprites();
-  hand = createSprite(mouseX, mouseY);
-  hand.addImage(handImage);
+  background(0);
+  for (let i=0; i<100; i++) {
+    lifeform[i].display();
+    lifeform[i].grow();
+    for (let j=0; j<100; j++){
+      if (lifeform[i] != lifeform[j] && lifeform[i].intersects(lifeform[j])) {
+        if(lifeform[i].radius > lifeform[j].radius) {
+          lifeform[j].r = lifeform[i].r;
+          lifeform[j].g = lifeform[i].g;
+          lifeform[j].b = lifeform[i].b;
+        } else {
+          lifeform[i].r = lifeform[j].r;
+          lifeform[i].g = lifeform[j].g;
+          lifeform[i].b = lifeform[j].b;
+        }
+      }
+    }
+  }
+}
 
-  drawSprites();
+function lifeforms() {
+  this.x = random(width);
+  this.y = random(height);
+  this.radius = random(10, 15);
+  this.r = random(255);
+  this.g = random(255);
+  this.b = random(255);
 
+  this.changeColor = function() {
+    this.r = random(255);
+    this.g = random(255);
+    this.b = random(255);
+  };
+  this.display = function() {
+    stroke(255);
+    fill(this.r, this.g, this.b,100);
+    ellipse(this.x, this.y, this.radius * 2);
+  };
+
+  this.grow = function() {
+    this.radius += random(0.020,0.050);
+  }
+
+  this.intersects = function(other) {
+    var d = dist(this.x, this.y, other.x, other.y);
+    if (d < this.radius + other.radius) {
+      return true;
+    } else {
+      return false;
+    }
+  };
 }
