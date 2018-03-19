@@ -1,8 +1,8 @@
-## Mini exercise 4
+## Mini exercise 6
 
-**URL:** https://rawgit.com/Solution0/Aesthetic-Programming/Github-Desktop/Mini_ex4/empty-example/index.html
+![alt text](https://github.com/Solution0/Aesthetic-Programming/blob/Github-Desktop/Mini_ex6/capture.GIF)
+**URL:** https://rawgit.com/Solution0/Aesthetic-Programming/Github-Desktop/Mini_ex6/program/index.html
 
-## Title
-Placeholder text
+## Survivability
 
-Text will be added tuesday
+
