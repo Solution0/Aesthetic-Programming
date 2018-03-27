@@ -1,7 +1,7 @@
-# txt.cmd - CODE IS LAW (In collaboration with …)
-![alt tekst](Udklip.PNG) 
-![alt tekst](Udklip2.PNG)
-![alt tekst](Udklip3.PNG)
+# txt.cmd - CODE IS LAW (In collaboration with Margrete)
+![alt tekst](https://github.com/Margretexie/Mini_ex/blob/master/mini_ex7/Udklip.PNG) 
+![alt tekst](https://github.com/Margretexie/Mini_ex/blob/master/mini_ex7/Udklip2.PNG)
+![alt tekst](https://github.com/Margretexie/Mini_ex/blob/master/mini_ex7/Udklip3.PNG)
 
 [Try out code now](https://rawgit.com/Margretexie/Mini_ex/master/mini_ex7/empty-example/index.html)
 
@@ -32,20 +32,16 @@ In our program you interact with a text-object by using 10 buttons, labeled ‘T
 
 In a way this feels like you are commanding the computer to do certain things by using english language instead of programming languages. Further supporting the idea of humanizing the computer. In this perspective you become the word, the God that commands the computer to do certain things. In its strong believe in you it does whatever you tell it to without hesitation. 
 
-#Vocable Code and our program
-This is individual comments that each of us made as we analyzed our work using the text ‘Vocable Code’.
-*Each of you in the group analyze your own e-lit work by using the text 'Vocable Code': what is the aesthetic aspects of your program in particular to the relationship between code and language?*
+# Vocable Code and our program
+This is individual comments that each of us made as we analyzed our work using the text ‘Vocable Code’.*
 
-Margrete:
+What I really found fascinating about the text in the context of our program was the idea of a voice. For me the voice is when the the sender of a message gets to express themselves. This include all kinds of mediums that the message can be conveyed in. What was interesting in our program was that our goal was to somehow give the computer its voice. Making it express itself in different conditions, much like a human does. But while working towards this we realised that while it seemed like it was the voice of the computer, or at very least the object 'text', it was not and never would be. 
 
-Teis:
-> "Programs are operative inasmuch as they do what they say, but moreover they do what they say at the moment of saying it" (p.35 Vocable code by Geoff Cox)
-
+The reason for this two-sided:
+* Firstly the message was dictated by us. But not only that, the messages was also littered with human concepts like dizziness, gravity and pain. Things that does not affect the computer in its 'virtual' world. Geoff Cox also talks about this in Vocable Code:
 >"Programmers bring bodily meaning to their work by applying models of human perception, and by trying to account for the ways that other social bodies are drawn into the process of meaning production"(p.26 Vocable code by Geoff Cox)
 
-> "The meanings of words are not derived from an inherent logical structure alone that manipulates symbols into particular sequences (like a program), but also from their social usage." (p.32 Vocable code by Geoff Cox)
+* Secondly it would never have a reason to convey these kind of messages. We humans do it all the time because we have a history as pack animals. We have learned through evolution that expressing is a part of your survivability and if we dig down even further: That dying is bad. A newly 'born' sentient computer, even if it understood or got affected by the same things as us, would not have a particular reason to express its situation. Why even bother getting sympathy from human beings if you dont get the concept of death and ageing? The computer is born without dreams, intentions, morals, feelings and sense of time. The hardwire telling it to 'live' does not exist and therefore would percieve unplugged/dead to be just another state like processing and waiting. 
 
-> “Writing in a computer programming language is phrasing instructions for
-an utter idiot.” (Florian Cramer, “Language”, in Fuller op. cit., p.171)
-
-
+No wonder pop-culture comics about sentient computers are so sad.
+![alt text](https://media.giphy.com/media/Nm65s7LazScyk/giphy.gif)
