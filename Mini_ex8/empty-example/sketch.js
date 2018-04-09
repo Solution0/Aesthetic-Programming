@@ -1,4 +1,4 @@
-var api = "https://api.giphy.com/v1/gifs/trending?";   // Refererer til giphy's API side
+var api = "//api.giphy.com/v1/gifs/trending?";   // Refererer til giphy's API side
 var apiKey = "&api_key=dc6zaTOxFJmzC";                // koden
 var txt1;
 var txt2;
