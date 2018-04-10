@@ -1,8 +1,9 @@
-var api = " https//api.giphy.com/v1/gifs/trending?";   // Refererer til giphy's API side
-var apiKey = "&api_key=dc6zaTOxFJmzC";                // koden
+var api = "https://api.giphy.com/v1/gifs/trending?";
+var apiKey = "&api_key=dc6zaTOxFJmzC";
 var txt1;
 var txt2;
 var txt;
+var gifsize = "&original";
 
 function preload() {
   txt1 = loadImage('Assets/Memo1.png');
@@ -10,9 +11,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, 110);                     // Canvas
-  var url = api + apiKey;                             // URL skal bestå af dette
-  loadJSON(url, gotData);                             // Henter JSON
+  createCanvas(windowWidth, 110);
+  var url = api + apiKey + gifsize;
+  loadJSON(url, gotData);
   background(255);
   strokeWeight(5);
   fill(214,182,226);
