@@ -13,3 +13,8 @@ So this program is really just a way to make it easier to see what is popular ri
 
 *(individual)Can you describe and reflect your process of making this mini exercise in terms of acquiring, processing, using and representing data? How much do you understand this provided data? How do platform providers sort the data and give you the selected data?*
 
+Our method for acquiring the necessary data was very easy. We used a function that Giphy provides to not only get the gifs we wanted but also the most popular at the time og querying them. This method lets Giphy handle most of the processing behind handling the gifs and even catagorizing them. So we can just enjoy displaying them in our own program. But because its this easy you dont really get the feeling of working with API's. How you must explore large files to access different kind of content. 
+
+*(individual)Try to formulate a question in relation to web APIs or querying processes that you want to investigate further when you have more time.*
+
+**How do you work with JSON to access content?** 
