@@ -16,6 +16,7 @@ It is very easy, when you compare the three flowcharts, to determine in what par
 Algorithms is a huge part of the underlying functionality of nature, human behavior and machines. Here we use it as a way to measure progress and states. Take dishes. If clean put in cupboard, if not: clean and then put in cupboard. If given enough time everything could be made into algorithms even, as mentioned, human behavior:
 
 ![Alt text](https://github.com/Solution0/Aesthetic-Programming/blob/Github-Desktop/Mini_ex9/HumanProgramming.JPG)
+![Alt text](https://media.giphy.com/media/QbumCX9HFFDQA/giphy.gif)
 
 ## Group part
 **Made in collaboration with Jonas Nordberg, Margrethe Xie and Nanna Nørgaard**
